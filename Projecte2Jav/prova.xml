@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrega>
+    <nomTreballador>Prova entrega</nomTreballador>
+    <treballadors>
+        <treballador id_treballador="4">
+            <dni>11232333D</dni>
+            <nom>Roger</nom>
+            <cognom>Martinez</cognom>
+            <telefon>343212343</telefon>
+            <correu>rogerm@rogerm.cat</correu>
+            <num_identificatiu>1234</num_identificatiu>
+            <minuts>50</minuts>
+            <nomina>0</nomina>
+        </treballador>
+    </treballadors>
+</entrega>

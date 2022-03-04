@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entrega>
+    <nomTreballador>Prova entrega</nomTreballador>
+    <treballadors>
+        <treballador id_treballador="2">
+            <dni>12345678X</dni>
+            <nom>Oriol</nom>
+            <cognom>Martinez</cognom>
+            <telefon>679145897</telefon>
+            <correu>oriolmartinez@gmail.com</correu>
+            <minuts>250</minuts>
+            <nomina>0</nomina>
+            <any>2021</any>
+            <mes>3</mes>
+            <num_nomina>J4567</num_nomina>
+            <id_nomina>4</id_nomina>
+            <jornades>1</jornades>
+        </treballador>
+        <treballador id_treballador="4">
+            <dni>11232333D</dni>
+            <nom>Roger</nom>
+            <cognom>Martinez</cognom>
+            <telefon>343212343</telefon>
+            <correu>rogerm@rogerm.cat</correu>
+            <num_identificatiu>1234</num_identificatiu>
+            <minuts>50</minuts>
+            <nomina>0</nomina>
+            <any>2022</any>
+            <mes>1</mes>
+            <num_nomina>J1234</num_nomina>
+            <id_nomina>1</id_nomina>
+            <jornades>1</jornades>
+        </treballador>
+        <treballador id_treballador="3">
+            <dni>12345678A</dni>
+            <nom>Prova</nom>
+            <cognom>Prova</cognom>
+            <telefon>123456789</telefon>
+            <correu>prova@gmail.com</correu>
+            <minuts>120</minuts>
+            <nomina>0</nomina>
+            <any>2022</any>
+            <mes>2</mes>
+            <num_nomina>L2345</num_nomina>
+            <id_nomina>2</id_nomina>
+            <jornades>1</jornades>
+        </treballador>
+    </treballadors>
+</entrega>

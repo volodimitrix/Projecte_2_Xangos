@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La primera App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/formulari.css') }}">
+
+</head>
+<body>
+    <h1>Entra les dades de la taula producte: </h1>
+    <form action="/formulari_resposta_prd" method="GET">
+        <p><b>Codi producte: <input type="text" name="codiProducte" size="20"></b></p>
+        <p><b>Descripcio producte: <input type="text" name="descProducte" size="20"></b></p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+</html>

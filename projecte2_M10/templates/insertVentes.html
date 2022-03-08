@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/formulari.css') }}">
+    <title>Ventes insert</title>
+</head>
+<body>
+    <h2>Entra a taula Ventes:</h2>
+    <form action="/formVentes_resposta" method="get">
+       <p>Codi del prdoucte:<input type="text" name="codi_prodcute" size="10"></p>
+        <p>Id del client:<input type="text" name="id_client" size="3"></p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>

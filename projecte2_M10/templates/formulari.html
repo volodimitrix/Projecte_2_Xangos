@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/formulari.css') }}">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entra dades</title>
+</head>
+<body>
+    <h2>Entra dades taula Client</h2>
+      <form action="/formulari_resposta" method="get">
+        <p>Nom: <input type="text" name="nomClient" size="20"></p> 
+        <p>Dni: <input type="text" name="dniClient" size="20"></p> 
+        <p>Cognom: <input type="text" name="cognomClient" size="20"></p>
+        <p>Adreça: <input type="text" name="adrecaClient" size="20"></p>
+        <p>Pais: <input type="text" name="paisClient" size="20"></p>
+        <p>Tipus: <input type="text" name="tipusClient" size="15"></p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Borrar">
+		
+      </form>  
+
+
+
+
+
+
+
+</body>
+</html>
